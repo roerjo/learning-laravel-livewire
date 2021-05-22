@@ -1,6 +1,6 @@
 <div class="p-6 text-center m-auto w-1/2">
 
-    <h1 class="text-xl mb-4">Contact Form</h1>
+    <h2 class="text-xl mb-4">Contact Form</h2>
 
     <form wire:submit.prevent="submitForm">
 

@@ -11,11 +11,19 @@
         @livewireStyles
     </head>
     <body class="antialiased container mx-auto">
+        <h2 class="text-2xl text-center my-4">Laracasts Livewire Basics Series</h2>
+
+        <hr>
+
         <livewire:counter />
 
         <hr>
 
         <livewire:contact-form />
+
+        <hr>
+
+        <livewire:search-dropdown />
 
         <hr>
 
