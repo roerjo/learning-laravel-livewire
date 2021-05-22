@@ -6,13 +6,18 @@
 
         <title>Laracasts Livewire Basics</title>
 
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
         @livewireStyles
     </head>
-    <body class="antialiased">
+    <body class="antialiased container mx-auto">
         <livewire:counter />
 
         <hr>
 
+        <livewire:contact-form />
+
+        <hr>
 
         @livewireScripts
     </body>
